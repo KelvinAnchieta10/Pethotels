@@ -1,0 +1,579 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Pet Hostel SL | Hospedagem, Creche & Adestramento</title>
+    <meta name="description"
+        content="Hospedagem, creche/daycare, adestramento e transporte para pets. Rotina, segurança e carinho. Fale no WhatsApp." />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- Topbar -->
+    <div class="topbar">
+        <div class="container topbar__inner">
+            <div class="topbar__left">
+                <!-- <span class="ping"></span> -->
+                <!-- <span>Atendimento rápido no WhatsApp</span> -->
+            </div>
+
+            <div class="topbar__right">
+                <a href="#sobre">Sobre</a>
+                <a href="#servicos">Serviços</a>
+                <a href="#rotina">Rotina</a>
+                <a href="#contato">Contato</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container header__inner">
+            <a class="brand" href="#">
+                <img src="./img/PetHostel.jpg" alt="Pet Hostel SL" class="logo" />
+                <span class="brand__name">
+                    <strong>Pet Hostel SL</strong>
+                    <small>Hospedagem • Creche • Adestramento</small>
+                </span>
+            </a>
+
+            <nav class="nav">
+                <a href="#sobre">Sobre</a>
+                <a href="#servicos">Serviços</a>
+                <a href="#diferenciais">Diferenciais</a>
+                <a href="#faq">Dúvidas</a>
+            </nav>
+
+            <div class="header__actions">
+                <button class="btn btn--ghost" id="btnTheme" type="button" aria-label="Alternar tema">🌙</button>
+                <a class="btn btn--primary" id="ctaTop" href="#">Chamar no WhatsApp</a>
+
+                <button class="hamburger" id="btnMenu" type="button" aria-label="Abrir menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+
+        <div class="mobile" id="mobileMenu">
+            <a href="#sobre">Sobre</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#rotina">Rotina</a>
+            <a href="#diferenciais">Diferenciais</a>
+            <a href="#faq">Dúvidas</a>
+            <a href="#contato">Contato</a>
+        </div>
+    </header>
+
+    <!-- HERO (estilo MotoChefe: headline gigante + imagem forte + CTA) -->
+    <section class="hero" id="inicio">
+        <div class="hero__bg"></div>
+
+        <div class="container hero__inner">
+            <div class="hero__copy reveal">
+                <div class="kicker">
+                    <span class="kicker__dot"></span>
+                    <span>Rotina, segurança e bem-estar</span>
+                </div>
+
+                <h1 class="hero__title">
+                    Um lugar onde seu pet fica <span class="grad">seguro</span>,
+                    gasta energia e volta <span class="grad">feliz</span>.
+                </h1>
+
+                <p class="hero__subtitle">
+                    Hospedagem, creche/daycare e adestramento com acompanhamento e adaptação orientada.
+                </p>
+
+                <div class="hero__ctas">
+                    <a class="btn btn--primary btn--shine" id="ctaHero" href="#">Solicitar orçamento</a>
+                    <a class="btn btn--soft" href="#servicos">Conhecer serviços</a>
+                </div>
+
+                <div class="hero__chips">
+                    <span class="chip">✅ Ambiente confortável</span>
+                    <span class="chip">✅ Rotina supervisionada</span>
+                    <span class="chip">✅ Adaptação guiada</span>
+                </div>
+            </div>
+
+            <div class="hero__media reveal delay">
+                <div class="mediaCard__img">
+                    <video class="mediaCard__video" autoplay muted loop playsinline preload="metadata">
+                        <source src="img/Pethostel.mp4" type="video/mp4" />
+                    </video>
+
+                </div>
+                <div class="mediaCard__bottom">
+                    <span class="pill">🎾 Brincadeiras</span>
+                    <span class="pill">🧼 Higiene</span>
+                    <span class="pill">🛟 Segurança</span>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- NÚMEROS GRANDES (estilo MotoChefe) -->
+    <section class="numbers" aria-label="Indicadores">
+        <div class="container numbers__inner reveal">
+            <div class="num">
+                <strong data-count="350">0</strong>
+                <span>pets atendidos</span>
+            </div>
+
+            <div class="num">
+                <strong data-count="24">0</strong>
+                <span>suporte e orientação</span>
+            </div>
+
+            <div class="num">
+                <strong data-count="5">0</strong>
+                <span>experiência premium</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOBRE (bloco com título gigante) -->
+    <section class="section" id="sobre">
+        <div class="container">
+            <div class="split">
+                <div class="split__left reveal">
+                    <h2 class="bigTitle">Cuidado de verdade, com rotina e responsabilidade.</h2>
+
+                    <p class="muted">
+                        O Pet Hostel SL nasceu para oferecer um ambiente acolhedor para cães, com energia na medida
+                        certa,
+                        descanso, socialização e acompanhamento.
+
+                    </p>
+
+                    <p class="muted">
+                        Aqui, a ideia é simples: cada pet tem sua personalidade.
+
+                        Por isso, a adaptação e o atendimento são guiados, para manter segurança e bem-estar.
+
+                    </p>
+
+                    <div class="miniGrid">
+                        <div class="miniCard">
+                            <strong>Triagem</strong>
+                            <span>Requisitos e perfil</span>
+                        </div>
+                        <div class="miniCard">
+                            <strong>Adaptação</strong>
+                            <span>Entrada gradual</span>
+                        </div>
+                        <div class="miniCard">
+                            <strong>Rotina</strong>
+                            <span>Brincar e descansar</span>
+                        </div>
+                        <div class="miniCard">
+                            <strong>Transparência</strong>
+                            <span>Orientação ao tutor</span>
+                        </div>
+                    </div>
+
+                    <a class="btn btn--primary btn--shine" id="ctaSobre" href="#">Quero falar com a equipe</a>
+                </div>
+
+                <div class="split__right reveal delay">
+                    <div class="photoStack">
+                        <img class="photo photo--a"
+                            src="https://images.unsplash.com/photo-1517849845537-4d257902454a?auto=format&fit=crop&w=1200&q=70"
+                            alt="Cão feliz" loading="lazy" />
+                        <img class="photo photo--b"
+                            src="https://images.unsplash.com/photo-1518717758536-85ae29035b6d?auto=format&fit=crop&w=1200&q=70"
+                            alt="Cão brincando" loading="lazy" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVIÇOS (cards) -->
+    <section class="section alt" id="servicos">
+        <div class="container">
+            <div class="sectionHead reveal">
+                <h2>Serviços</h2>
+                <p>Escolha o ideal para a rotina do seu pet. A gente orienta pelo WhatsApp.</p>
+            </div>
+
+            <div class="cards">
+                <article class="card reveal" data-modal="mHosp">
+                    <div class="icon">🏠</div>
+                    <h3>Hospedagem</h3>
+                    <p>Perfeito para viagens e períodos maiores, com acompanhamento.</p>
+                    <span class="more">Ver detalhes →</span>
+                </article>
+
+                <article class="card reveal" data-modal="mCreche">
+                    <div class="icon">🎾</div>
+                    <h3>Creche / Daycare</h3>
+                    <p>Gasto de energia, socialização e descanso durante o dia.</p>
+                    <span class="more">Ver detalhes →</span>
+                </article>
+
+                <article class="card reveal" data-modal="mAdes">
+                    <div class="icon">🧠</div>
+                    <h3>Adestramento</h3>
+                    <p>Treinos e orientação para convivência, obediência e comportamento.</p>
+                    <span class="more">Ver detalhes →</span>
+                </article>
+
+                <article class="card reveal" data-modal="mTrans">
+                    <div class="icon">🚗</div>
+                    <h3>Transporte</h3>
+                    <p>Busca e entrega (sob agendamento) para facilitar sua rotina.</p>
+                    <span class="more">Ver detalhes →</span>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ROTINA (horizontal scroll "modelo" estilo MotoChefe) -->
+    <section class="section" id="rotina">
+        <div class="container">
+            <div class="sectionHead reveal">
+                <h2>Rotina</h2>
+                <p>Um fluxo claro, simples e pensado para bem-estar.</p>
+            </div>
+
+            <div class="hscroll reveal">
+                <div class="hcard">
+                    <span class="hcard__num">01</span>
+                    <h3>Check-in</h3>
+                    <p>Recepção e orientação inicial com base no perfil do pet.</p>
+                </div>
+
+                <div class="hcard">
+                    <span class="hcard__num">02</span>
+                    <h3>Adaptação</h3>
+                    <p>Entrada gradual quando necessário para manter segurança.</p>
+                </div>
+
+                <div class="hcard">
+                    <span class="hcard__num">03</span>
+                    <h3>Brincar</h3>
+                    <p>Atividades e socialização com supervisão.</p>
+                </div>
+
+                <div class="hcard">
+                    <span class="hcard__num">04</span>
+                    <h3>Descansar</h3>
+                    <p>Pausas e conforto para equilíbrio físico e emocional.</p>
+                </div>
+
+                <div class="hcard">
+                    <span class="hcard__num">05</span>
+                    <h3>Retirada/Entrega</h3>
+                    <p>Você busca no local ou combina transporte.</p>
+                </div>
+            </div>
+
+            <div class="ctaBand reveal">
+                <div>
+                    <h3>Quer saber valores e disponibilidade?</h3>
+                    <p class="muted">Chame no WhatsApp e receba orientação do serviço ideal.</p>
+                </div>
+                <a class="btn btn--primary btn--shine" id="ctaMid" href="#">Chamar agora</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- DIFERENCIAIS (6 razões - estilo MotoChefe) -->
+    <section class="section alt" id="diferenciais">
+        <div class="container">
+            <div class="sectionHead reveal">
+                <h2>6 razões para escolher o Pet Hostel SL</h2>
+                <p>O que você pode esperar do nosso atendimento.</p>
+            </div>
+
+            <div class="reasons">
+                <div class="reason reveal">
+                    <span class="reason__num">01</span>
+                    <h3>Ambiente confortável</h3>
+                    <p>Espaço pensado para acolher e manter o pet tranquilo.</p>
+                </div>
+
+                <div class="reason reveal">
+                    <span class="reason__num">02</span>
+                    <h3>Rotina supervisionada</h3>
+                    <p>Atividades e pausas organizadas conforme o perfil.</p>
+                </div>
+
+                <div class="reason reveal">
+                    <span class="reason__num">03</span>
+                    <h3>Adaptação orientada</h3>
+                    <p>Entrada gradual quando necessário para segurança.</p>
+                </div>
+
+                <div class="reason reveal">
+                    <span class="reason__num">04</span>
+                    <h3>Transparência</h3>
+                    <p>Orientação ao tutor e alinhamento de expectativas.</p>
+                </div>
+
+                <div class="reason reveal">
+                    <span class="reason__num">05</span>
+                    <h3>Adestramento</h3>
+                    <p>Treinos e plano conforme o objetivo do tutor.</p>
+                </div>
+
+                <div class="reason reveal">
+                    <span class="reason__num">06</span>
+                    <h3>Transporte</h3>
+                    <p>Facilidade para creche e hospedagem sob agendamento.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALERIA -->
+    <section class="section" id="galeria">
+        <div class="container">
+            <div class="sectionHead reveal">
+                <h2>Galeria</h2>
+                <p> <b>Nossa galera pet em alguns momentos do dia a dia.</b></p>
+            </div>
+
+            <div class="gallery">
+                <button class="gItem reveal"
+                    data-img="https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&fit=crop&w=1600&q=70"
+                    aria-label="Abrir foto 1">
+                    <img src="https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&fit=crop&w=900&q=60"
+                        alt="Cão" loading="lazy">
+                </button>
+
+                <button class="gItem reveal"
+                    data-img="https://images.unsplash.com/photo-1525253086316-d0c936c814f8?auto=format&fit=crop&w=1600&q=70"
+                    aria-label="Abrir foto 2">
+                    <img src="https://images.unsplash.com/photo-1525253086316-d0c936c814f8?auto=format&fit=crop&w=900&q=60"
+                        alt="Cão" loading="lazy">
+                </button>
+
+                <button class="gItem reveal"
+                    data-img="https://images.unsplash.com/photo-1529946179074-87642f6204d8?auto=format&fit=crop&w=1600&q=70"
+                    aria-label="Abrir foto 3">
+                    <img src="https://images.pexels.com/photos/30899037/pexels-photo-30899037.jpeg"
+                        alt="Cão" loading="lazy">
+                </button>
+
+                <button class="gItem reveal"
+                    data-img="https://images.unsplash.com/photo-1530281700549-e82e7bf110d6?auto=format&fit=crop&w=1600&q=70"
+                    aria-label="Abrir foto 4">
+                    <img src="https://images.unsplash.com/photo-1530281700549-e82e7bf110d6?auto=format&fit=crop&w=900&q=60"
+                        alt="Cães" loading="lazy">
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section alt" id="faq">
+        <div class="container">
+            <div class="sectionHead reveal">
+                <h2>Dúvidas frequentes</h2>
+                <p>Respostas rápidas para agilizar seu atendimento.</p>
+            </div>
+
+            <div class="faq">
+                <button class="faqQ reveal" type="button">
+                    <span>Quais vacinas são necessárias?</span>
+                    <i>+</i>
+                </button>
+                <div class="faqA">
+                    <p>Normalmente são solicitadas vacinas e vermífugo em dia. Confirme os requisitos pelo WhatsApp,
+                        pois podem variar.</p>
+                </div>
+
+                <button class="faqQ reveal" type="button">
+                    <span>Como funciona a adaptação?</span>
+                    <i>+</i>
+                </button>
+                <div class="faqA">
+                    <p>Fazemos um primeiro dia orientado para o pet se acostumar ao ambiente, rotina e equipe.</p>
+                </div>
+
+                <button class="faqQ reveal" type="button">
+                    <span>Posso levar ração e itens pessoais?</span>
+                    <i>+</i>
+                </button>
+                <div class="faqA">
+                    <p>Sim. Você pode levar ração, brinquedos e itens do pet. A equipe orienta o ideal no atendimento.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section class="section" id="contato">
+        <div class="container">
+            <div class="contact reveal">
+                <div class="contact__left">
+                    <h2 class="bigTitle">Fale com a equipe</h2>
+
+                    <p class="muted">
+                        Solicite orçamento e tire dúvidas em poucos minutos.
+
+                        Atendimento direto, sem burocracia.
+
+                    </p>
+
+                    <div class="contact__btns">
+                        <a class="btn btn--primary btn--shine" id="ctaBottom" href="#">Chamar no WhatsApp</a>
+                        <a class="btn btn--soft" id="ctaInsta" href="#" target="_blank" rel="noopener">Instagram</a>
+                    </div>
+
+                    <div class="info">
+                        <div class="infoRow"><span>📞 WhatsApp</span><strong id="showPhone">+55</strong></div>
+                        <div class="infoRow"><span>🕘 Horário</span><strong>Seg a Sáb — 08:00 às 18:00</strong></div>
+                        <div class="infoRow"><span>📍 Endereço</span><strong>Adicionar depois</strong></div>
+                    </div>
+                </div>
+
+                <div class="contact__right">
+                    <div class="formCard">
+                        <h3>Mensagem rápida</h3>
+                        <p class="muted">Preencha e clique em “Enviar no WhatsApp”.</p>
+
+                        <form id="leadForm">
+                            <label>
+                                Seu nome
+                                <input id="nome" required placeholder="Ex.: Kelvin" />
+                            </label>
+
+                            <label>
+                                Nome do pet
+                                <input id="pet" required placeholder="Ex.: Thor" />
+                            </label>
+
+                            <label>
+                                Serviço
+                                <select id="servico">
+                                    <option>Hospedagem</option>
+                                    <option>Creche / Daycare</option>
+                                    <option>Adestramento</option>
+                                    <option>Transporte</option>
+                                </select>
+                            </label>
+
+                            <label>
+                                Mensagem
+                                <textarea id="msg" rows="4"
+                                    placeholder="Ex.: Gostaria de valores e disponibilidade."></textarea>
+                            </label>
+
+                            <button class="btn btn--primary btn--shine" type="submit">Enviar no WhatsApp</button>
+
+                            <small class="muted">
+                                Ao clicar, a mensagem abre no WhatsApp com os dados preenchidos.
+
+                            </small>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer__inner">
+            <div class="brandMini">
+                <img src="./img/PetHostel.jpg" alt="Pet Hostel SL" class="logo" />
+
+                <div>
+                    <strong>Pet Hostel SL</strong>
+                    <small>Hospedagem • Creche • Adestramento</small>
+                </div>
+            </div>
+
+            <div class="footLinks">
+                <a href="#sobre">Sobre</a>
+                <a href="#servicos">Serviços</a>
+                <a href="#faq">FAQ</a>
+                <a href="#contato">Contato</a>
+            </div>
+
+            <small class="muted">© <span id="year"></span> Pet Hostel SL — Todos os direitos reservados.</small>
+        </div>
+    </footer>
+
+    <!-- Whats Floating -->
+    <a class="wfloat" id="wfloat" href="#" aria-label="Abrir WhatsApp">💬</a>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+        <button class="lightbox__close" id="lightboxClose" aria-label="Fechar">✕</button>
+        <img id="lightboxImg" alt="Imagem ampliada" />
+    </div>
+
+    <!-- Modais -->
+    <div class="modal" id="mHosp" aria-hidden="true">
+        <div class="modal__box">
+            <button class="modal__close" data-close aria-label="Fechar">✕</button>
+            <h3>Hospedagem</h3>
+            <p class="muted">Para viagens e períodos maiores, com rotina, descanso e acompanhamento.</p>
+            <ul class="muted">
+                <li>Orientação do que levar</li>
+                <li>Adaptação (quando necessário)</li>
+                <li>Rotina supervisionada</li>
+            </ul>
+            <a class="btn btn--primary btn--shine" id="ctaHosp" href="#">Quero orçamento</a>
+        </div>
+    </div>
+
+    <div class="modal" id="mCreche" aria-hidden="true">
+        <div class="modal__box">
+            <button class="modal__close" data-close aria-label="Fechar">✕</button>
+            <h3>Creche / Daycare</h3>
+            <p class="muted">Gasto de energia, socialização e descanso durante o dia.</p>
+            <ul class="muted">
+                <li>Brincadeiras e pausas</li>
+                <li>Ambiente seguro</li>
+                <li>Ideal para rotina de trabalho</li>
+            </ul>
+            <a class="btn btn--primary btn--shine" id="ctaCre" href="#">Quero agendar</a>
+        </div>
+    </div>
+
+    <div class="modal" id="mAdes" aria-hidden="true">
+        <div class="modal__box">
+            <button class="modal__close" data-close aria-label="Fechar">✕</button>
+            <h3>Adestramento</h3>
+            <p class="muted">Treinos e orientação para convivência, obediência e comportamento.</p>
+            <ul class="muted">
+                <li>Plano conforme objetivo</li>
+                <li>Orientação ao tutor</li>
+                <li>Rotina de treinos</li>
+            </ul>
+            <a class="btn btn--primary btn--shine" id="ctaAde" href="#">Quero saber mais</a>
+        </div>
+    </div>
+
+    <div class="modal" id="mTrans" aria-hidden="true">
+        <div class="modal__box">
+            <button class="modal__close" data-close aria-label="Fechar">✕</button>
+            <h3>Transporte</h3>
+            <p class="muted">Busca e entrega sob agendamento para facilitar sua rotina.</p>
+            <ul class="muted">
+                <li>Agendamento combinado</li>
+                <li>Transporte seguro</li>
+                <li>Ideal para creche e hospedagem</li>
+            </ul>
+            <a class="btn btn--primary btn--shine" id="ctaTra" href="#">Quero agendar</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
