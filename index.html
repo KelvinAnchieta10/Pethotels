@@ -54,8 +54,6 @@
 
             <div class="header__actions">
                 <button class="btn btn--ghost" id="btnTheme" type="button" aria-label="Alternar tema">🌙</button>
-                <a class="btn btn--primary" id="ctaTop" href="#">Chamar no WhatsApp</a>
-
                 <button class="hamburger" id="btnMenu" type="button" aria-label="Abrir menu">
                     <span></span><span></span><span></span>
                 </button>
@@ -72,11 +70,12 @@
         </div>
     </header>
 
-    <!-- HERO (estilo MotoChefe: headline gigante + imagem forte + CTA) -->
+    <!-- HERO -->
     <section class="hero" id="inicio">
         <div class="hero__bg"></div>
 
         <div class="container hero__inner">
+            <!-- Coluna esquerda -->
             <div class="hero__copy reveal">
                 <div class="kicker">
                     <span class="kicker__dot"></span>
@@ -104,24 +103,28 @@
                 </div>
             </div>
 
+            <!-- Coluna direita (vídeo + pills SEMPRE juntos) -->
             <div class="hero__media reveal delay">
-                <div class="mediaCard__img">
-                    <video class="mediaCard__video" autoplay muted loop playsinline preload="metadata">
-                        <source src="img/Pethostel.mp4" type="video/mp4" />
-                    </video>
+                <div class="mediaCard">
+                    <div class="mediaCard__img">
+                        <video class="mediaCard__video" autoplay muted loop playsinline preload="metadata">
+                            <source src="img/Pethostel.mp4" type="video/mp4" />
+                        </video>
 
-                </div>
-                <div class="mediaCard__bottom">
-                    <span class="pill">🎾 Brincadeiras</span>
-                    <span class="pill">🧼 Higiene</span>
-                    <span class="pill">🛟 Segurança</span>
+                        <div class="mediaCard__caption"><span class="dotLive"></span>Dia a dia</div>
+                    </div>
+
+                    <div class="mediaCard__bottom">
+                        <span class="pill">🎾 Brincadeiras</span>
+                        <span class="pill">🧼 Higiene</span>
+                        <span class="pill">🛟 Segurança</span>
+                    </div>
                 </div>
             </div>
         </div>
-        </div>
     </section>
 
-    <!-- NÚMEROS GRANDES (estilo MotoChefe) -->
+    <!-- NÚMEROS -->
     <section class="numbers" aria-label="Indicadores">
         <div class="container numbers__inner reveal">
             <div class="num">
@@ -141,7 +144,7 @@
         </div>
     </section>
 
-    <!-- SOBRE (bloco com título gigante) -->
+    <!-- SOBRE -->
     <section class="section" id="sobre">
         <div class="container">
             <div class="split">
@@ -150,16 +153,12 @@
 
                     <p class="muted">
                         O Pet Hostel SL nasceu para oferecer um ambiente acolhedor para cães, com energia na medida
-                        certa,
-                        descanso, socialização e acompanhamento.
-
+                        certa, descanso, socialização e acompanhamento.
                     </p>
 
                     <p class="muted">
                         Aqui, a ideia é simples: cada pet tem sua personalidade.
-
                         Por isso, a adaptação e o atendimento são guiados, para manter segurança e bem-estar.
-
                     </p>
 
                     <div class="miniGrid">
@@ -198,12 +197,12 @@
         </div>
     </section>
 
-    <!-- SERVIÇOS (cards) -->
+    <!-- SERVIÇOS -->
     <section class="section alt" id="servicos">
         <div class="container">
             <div class="sectionHead reveal">
                 <h2>Serviços</h2>
-                <p>Escolha o ideal para a rotina do seu pet. A gente orienta pelo WhatsApp.</p>
+                <!-- <p>Escolha o ideal para a rotina do seu pet. A gente orienta pelo WhatsApp.</p> -->
             </div>
 
             <div class="cards">
@@ -238,12 +237,12 @@
         </div>
     </section>
 
-    <!-- ROTINA (horizontal scroll "modelo" estilo MotoChefe) -->
+    <!-- ROTINA -->
     <section class="section" id="rotina">
         <div class="container">
             <div class="sectionHead reveal">
                 <h2>Rotina</h2>
-                <p>Um fluxo claro, simples e pensado para bem-estar.</p>
+                <!-- <p>Um fluxo claro, simples e pensado para bem-estar.</p> -->
             </div>
 
             <div class="hscroll reveal">
@@ -288,12 +287,12 @@
         </div>
     </section>
 
-    <!-- DIFERENCIAIS (6 razões - estilo MotoChefe) -->
+    <!-- DIFERENCIAIS -->
     <section class="section alt" id="diferenciais">
         <div class="container">
             <div class="sectionHead reveal">
                 <h2>6 razões para escolher o Pet Hostel SL</h2>
-                <p>O que você pode esperar do nosso atendimento.</p>
+                <!-- <p>O que você pode esperar do nosso atendimento.</p> -->
             </div>
 
             <div class="reasons">
@@ -341,7 +340,7 @@
         <div class="container">
             <div class="sectionHead reveal">
                 <h2>Galeria</h2>
-                <p> <b>Nossa galera pet em alguns momentos do dia a dia.</b></p>
+                <p><b>Nossa galera pet em alguns momentos do dia a dia.</b></p>
             </div>
 
             <div class="gallery">
@@ -362,8 +361,8 @@
                 <button class="gItem reveal"
                     data-img="https://images.unsplash.com/photo-1529946179074-87642f6204d8?auto=format&fit=crop&w=1600&q=70"
                     aria-label="Abrir foto 3">
-                    <img src="https://images.pexels.com/photos/30899037/pexels-photo-30899037.jpeg"
-                        alt="Cão" loading="lazy">
+                    <img src="https://images.pexels.com/photos/30899037/pexels-photo-30899037.jpeg" alt="Cão"
+                        loading="lazy">
                 </button>
 
                 <button class="gItem reveal"
@@ -381,7 +380,7 @@
         <div class="container">
             <div class="sectionHead reveal">
                 <h2>Dúvidas frequentes</h2>
-                <p>Respostas rápidas para agilizar seu atendimento.</p>
+                <!-- <p>Respostas rápidas para agilizar seu atendimento.</p> -->
             </div>
 
             <div class="faq">
@@ -407,8 +406,7 @@
                     <i>+</i>
                 </button>
                 <div class="faqA">
-                    <p>Sim. Você pode levar ração, brinquedos e itens do pet. A equipe orienta o ideal no atendimento.
-                    </p>
+                    <p>Sim. Você pode levar ração, brinquedos e itens do pet. A equipe orienta o ideal no atendimento.</p>
                 </div>
             </div>
         </div>
@@ -423,9 +421,7 @@
 
                     <p class="muted">
                         Solicite orçamento e tire dúvidas em poucos minutos.
-
                         Atendimento direto, sem burocracia.
-
                     </p>
 
                     <div class="contact__btns">
@@ -476,7 +472,6 @@
 
                             <small class="muted">
                                 Ao clicar, a mensagem abre no WhatsApp com os dados preenchidos.
-
                             </small>
                         </form>
                     </div>
